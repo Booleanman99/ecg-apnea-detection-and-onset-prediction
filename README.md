@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 `requirements.txt` pins `torch==2.11.0`. On a CPU-only machine, install the CPU wheel first to
 avoid the CUDA download: `pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu`.
-On Colab, see "Running on Google Colab" below.
+On Colab, see "Running on Google Colab" below. Deviation from the preferred stack: XGBoost (gradient-boosted trees) is used alongside scikit-learn's logistic regression; the deep model is PyTorch.
 
 **Data.** Unzip `ECG_P1.zip` so that `data/ECG_P1/RECORDS` exists (the `.dat/.hea/.apn/.qrs`
 files next to it). Any other location works with `ECG_DATA_DIR=/path/to/ECG_P1`.
@@ -126,7 +126,7 @@ available. No NaN; all probabilities in [0, 1] (asserted).
 
 ## Assumptions and trade-offs (documented, as the brief asks)
 
-1. **ECG only.** Respiration/SpO₂ exist for 8 of 30 records. An ECG-only model covers every
+1. **ECG only; available at inference.** ECG is available at inference time in the single-lead setting; respiration and SpO₂ were not used and would not be present in that setting. Respiration/SpO₂ exist for 8 of 30 records. An ECG-only model covers every
    record and matches the stated single-lead setting. The companion `r`/`er` files are never
    read except to set an audit flag.
 2. **`.qrs` files are not an input.** Our own R-peak detector is used everywhere; `.qrs` is read

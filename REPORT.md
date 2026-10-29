@@ -8,9 +8,9 @@ The test split is 8 nights. Two rounds of model selection are reported (rules an
 
 **Alignment, verified.** Every `.apn` annotation sits at sample k·6000 in steps of exactly 6000 (asserted in s1), so annotation k labels minute [k, k+1); unannotated trailing signal is dropped.
 
-**Pre-processing.** R-peaks from our own Pan–Tompkins-style detector (validated against the supplied `.qrs`, never an input), a beat-template signal-quality index (SQI) and flat/clip/beat-count flags; nothing is dropped for quality. Every input is causal: Task A uses the labelled minute (plus the four before it in the final model); Task B uses the 5-minute history only, proven by `s2_split.py` (noise after t, identical features, 30/30 windows).
+**Pre-processing.** R-peaks from our own Pan–Tompkins-style detector (validated against the supplied `.qrs`, never an input), a beat-template signal-quality index (SQI) and flat/clip/beat-count flags. Signal stays at 100 Hz (no resampling); the detector band-passes 5–15 Hz internally; features are computed on the raw window, the CNN input is high-passed at 0.5 Hz and z-scored per window, and the round-2 final scales every feature to the night so far. Extent of bad signal: 37 minutes > 50 % flat and 76 with implausible beat counts across the 30 nights; they are kept, flagged and analysed in §7. Every input is causal: Task A uses the labelled minute (plus the four before it in the final model); Task B uses the 5-minute history only, proven by `s2_split.py` (noise after t, identical features, 30/30 windows).
 
-**Windows.** Task A: one window per annotated minute, 14,626 (test 3,824, prevalence 0.350). Task B: t at every minute boundary with 5 annotated minutes of history and 1 of horizon; an **onset** is an A minute whose predecessor is N; label = "an onset occurs in (t, t+1 min]"; windows with apnea in progress at t (5,708) are excluded, as the brief requires. Primary set 8,768 windows (test 2,452; onset prevalence 0.024, 60 onsets).
+**Windows.** Task A: one window per annotated minute, 14,626 (test 3,824, prevalence 0.350). Task B: t at every minute boundary with 5 annotated minutes of history and 1 of horizon; an **onset** is an A minute whose predecessor is N; label = "an onset occurs in (t, t+1 min]"; windows with apnea in progress at t (5,708) are excluded, as the brief requires. Primary set 8,768 windows (test 2,452; onset prevalence 0.024, 60 onsets). Minutes whose label differs from a neighbour (boundary minutes) are kept and flagged; §7 reports results with and without them.
 
 ## 2. Split and leakage
 
@@ -70,8 +70,8 @@ One command (`run_all.sh`) reproduces both rounds; fixed seeds, pinned dependenc
 
 ## 9. With more time
 
-A CNN learning curve; event-level Task B scoring under leave-one-night-out CV; a sub-minute gap sweep; a noise margin in every promotion clause.
+A CNN learning curve; a sub-minute gap sweep; a noise margin in every promotion clause.
 
 ## 10. Limitations
 
-Eight test nights: every CI is wide. An earlier configuration selected on a 6-night validation split was scored on the test set once; the final models were then selected by 22-night grouped cross-validation before a single further test scoring per final pipeline (one mis-mapped Task B run was caught and re-scored with the same pre-fixed choices; `PREREGISTRATION.md`), a second look at the test set. Round-1 numbers rest on a 6-night validation split used for early stopping, selection and thresholds. The round-2 clause "ranked above the round-1 final" carried no noise margin and promoted a Task B model statistically indistinguishable from the one it replaced. The Task B primary set filters on a label (apnea at t−1) a deployed system would not have. The record naming resembles a public apnea-ECG corpus; only the supplied files were used.
+Eight test nights: every CI is wide. An earlier configuration selected on a 6-night validation split was scored on the test set once; the final models were then selected by 22-night grouped cross-validation before a single further test scoring per final pipeline (one mis-mapped Task B run was caught and re-scored with the same pre-fixed choices; `PREREGISTRATION.md`), a second look at the test set. Round-1 numbers rest on a 6-night validation split used for early stopping, selection and thresholds. The round-2 clause "ranked above the round-1 final" carried no noise margin and promoted a Task B model statistically indistinguishable from the one it replaced. The record naming resembles a public apnea-ECG corpus; only the supplied files were used.
