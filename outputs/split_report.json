@@ -1,0 +1,64 @@
+{
+  "split": [
+    {
+      "split": "train",
+      "records": "a01 a02 a03 a05 a06 a07 a08 a09 a11 a12 b01 b02 c01 c02 c03 c04",
+      "n_records": 16,
+      "severe(a)": 10,
+      "borderline(b)": 2,
+      "control(c)": 4,
+      "taskA_windows": 7967,
+      "taskA_prevalence": 0.424,
+      "taskB_windows": 4519,
+      "taskB_onset_prevalence": 0.034
+    },
+    {
+      "split": "val",
+      "records": "a13 a14 a15 b04 c06 c07",
+      "n_records": 6,
+      "severe(a)": 3,
+      "borderline(b)": 1,
+      "control(c)": 2,
+      "taskA_windows": 2835,
+      "taskA_prevalence": 0.356,
+      "taskB_windows": 1797,
+      "taskB_onset_prevalence": 0.029
+    },
+    {
+      "split": "test",
+      "records": "a16 a18 a19 a20 b05 c08 c09 c10",
+      "n_records": 8,
+      "severe(a)": 4,
+      "borderline(b)": 1,
+      "control(c)": 3,
+      "taskA_windows": 3824,
+      "taskA_prevalence": 0.35,
+      "taskB_windows": 2452,
+      "taskB_onset_prevalence": 0.024
+    }
+  ],
+  "label_autocorrelation": {
+    "p_same_as_previous_minute": 0.9649774620879271,
+    "mean_apnea_run_length_min": 21.707542219254176
+  },
+  "causality_regression_test": {
+    "windows_checked": 30,
+    "taskB_changed": 0,
+    "control_changed": 0,
+    "parquet_mismatch": 0,
+    "parquet_rows_compared": 30,
+    "n_features": 47,
+    "n_cols_compared": 47,
+    "passed": true
+  },
+  "relative_features_label_independence": {
+    "A": {
+      "rows": 14626,
+      "identical_after_label_permutation": true
+    },
+    "B": {
+      "rows": 14476,
+      "identical_after_label_permutation": true
+    }
+  }
+}

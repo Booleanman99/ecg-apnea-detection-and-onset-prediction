@@ -1,0 +1,131 @@
+{
+  "split": "val",
+  "gap_sweep_lr_C0.5": {
+    "gap_0": {
+      "per_seed": {
+        "0": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.08934980557174348,
+            "auroc": 0.7953748501930844,
+            "within_record_auroc": 0.6937529436215878,
+            "within_record_n": 3
+          }
+        },
+        "1": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.08934980557174348,
+            "auroc": 0.7953748501930844,
+            "within_record_auroc": 0.6937529436215878,
+            "within_record_n": 3
+          }
+        },
+        "2": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.08934980557174348,
+            "auroc": 0.7953748501930844,
+            "within_record_auroc": 0.6937529436215878,
+            "within_record_n": 3
+          }
+        }
+      },
+      "val_auprc_mean": 0.08934980557174348,
+      "val_auprc_sd": 0.0,
+      "val_auroc_mean": 0.7953748501930843,
+      "val_auroc_sd": 1.1102230246251565e-16,
+      "val_within_record_auroc_mean": 0.6937529436215878,
+      "val_within_record_auroc_sd": 0.0,
+      "val_prevalence_mean": 0.029131652661064423,
+      "val_prevalence_sd": 3.469446951953614e-18
+    },
+    "gap_1": {
+      "per_seed": {
+        "0": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.057834695454135415,
+            "auroc": 0.6405854676195126,
+            "within_record_auroc": 0.5076800953495869,
+            "within_record_n": 3
+          }
+        },
+        "1": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.057834695454135415,
+            "auroc": 0.6405854676195126,
+            "within_record_auroc": 0.5076800953495869,
+            "within_record_n": 3
+          }
+        },
+        "2": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.057834695454135415,
+            "auroc": 0.6405854676195126,
+            "within_record_auroc": 0.5076800953495869,
+            "within_record_n": 3
+          }
+        }
+      },
+      "val_auprc_mean": 0.057834695454135415,
+      "val_auprc_sd": 0.0,
+      "val_auroc_mean": 0.6405854676195126,
+      "val_auroc_sd": 0.0,
+      "val_within_record_auroc_mean": 0.5076800953495869,
+      "val_within_record_auroc_sd": 0.0,
+      "val_prevalence_mean": 0.029131652661064423,
+      "val_prevalence_sd": 3.469446951953614e-18
+    },
+    "gap_2": {
+      "per_seed": {
+        "0": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.06356441870081546,
+            "auroc": 0.6751964135114741,
+            "within_record_auroc": 0.5341999160177126,
+            "within_record_n": 3
+          }
+        },
+        "1": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.06356441870081546,
+            "auroc": 0.6751964135114741,
+            "within_record_auroc": 0.5341999160177126,
+            "within_record_n": 3
+          }
+        },
+        "2": {
+          "val": {
+            "n": 1785,
+            "prevalence": 0.029131652661064426,
+            "auprc": 0.06356441870081546,
+            "auroc": 0.6751964135114741,
+            "within_record_auroc": 0.5341999160177126,
+            "within_record_n": 3
+          }
+        }
+      },
+      "val_auprc_mean": 0.06356441870081546,
+      "val_auprc_sd": 0.0,
+      "val_auroc_mean": 0.6751964135114741,
+      "val_auroc_sd": 0.0,
+      "val_within_record_auroc_mean": 0.5341999160177126,
+      "val_within_record_auroc_sd": 0.0,
+      "val_prevalence_mean": 0.029131652661064423,
+      "val_prevalence_sd": 3.469446951953614e-18
+    }
+  }
+}

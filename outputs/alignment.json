@@ -1,0 +1,358 @@
+{
+  "a01": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 489,
+    "n_signal_minutes": 492,
+    "unannotated_trailing_minutes": 3,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a02": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 528,
+    "n_signal_minutes": 530,
+    "unannotated_trailing_minutes": 2,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a03": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 519,
+    "n_signal_minutes": 522,
+    "unannotated_trailing_minutes": 3,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a05": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 454,
+    "n_signal_minutes": 453,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a06": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 510,
+    "n_signal_minutes": 509,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a07": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 511,
+    "n_signal_minutes": 510,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a08": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 501,
+    "n_signal_minutes": 500,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a09": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 495,
+    "n_signal_minutes": 498,
+    "unannotated_trailing_minutes": 3,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a11": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 466,
+    "n_signal_minutes": 468,
+    "unannotated_trailing_minutes": 2,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a12": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 577,
+    "n_signal_minutes": 577,
+    "unannotated_trailing_minutes": 0,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a13": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 495,
+    "n_signal_minutes": 494,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a14": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 509,
+    "n_signal_minutes": 522,
+    "unannotated_trailing_minutes": 13,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a15": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 510,
+    "n_signal_minutes": 509,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a16": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 482,
+    "n_signal_minutes": 481,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a18": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 489,
+    "n_signal_minutes": 492,
+    "unannotated_trailing_minutes": 3,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a19": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 502,
+    "n_signal_minutes": 502,
+    "unannotated_trailing_minutes": 0,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "a20": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 510,
+    "n_signal_minutes": 510,
+    "unannotated_trailing_minutes": 0,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "b01": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 487,
+    "n_signal_minutes": 486,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "b02": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 517,
+    "n_signal_minutes": 528,
+    "unannotated_trailing_minutes": 11,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "b04": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 429,
+    "n_signal_minutes": 428,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "b05": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 433,
+    "n_signal_minutes": 432,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "c01": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 484,
+    "n_signal_minutes": 483,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "N"
+    ]
+  },
+  "c02": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 502,
+    "n_signal_minutes": 501,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "c03": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 454,
+    "n_signal_minutes": 453,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "N"
+    ]
+  },
+  "c04": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 482,
+    "n_signal_minutes": 481,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "N"
+    ]
+  },
+  "c06": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 468,
+    "n_signal_minutes": 467,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "c07": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 429,
+    "n_signal_minutes": 428,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "c08": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 513,
+    "n_signal_minutes": 514,
+    "unannotated_trailing_minutes": 1,
+    "symbols": [
+      "N"
+    ]
+  },
+  "c09": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 468,
+    "n_signal_minutes": 467,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  },
+  "c10": {
+    "first_ann_sample": 0,
+    "all_on_minute_grid": true,
+    "all_steps_one_minute": true,
+    "n_annotations": 431,
+    "n_signal_minutes": 430,
+    "unannotated_trailing_minutes": -1,
+    "symbols": [
+      "A",
+      "N"
+    ]
+  }
+}

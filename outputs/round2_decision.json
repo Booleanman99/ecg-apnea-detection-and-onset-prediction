@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-10-29T18:38:32",
+  "tasks": {
+    "A": {
+      "promoted": "ctx5_rz|shipped",
+      "comparator": "r1_window|lr_C0.5",
+      "passing": [
+        "ctx5_rz|grid",
+        "ctx5_rz|shipped",
+        "ctx5|grid"
+      ],
+      "chosen": "ctx5_rz|shipped",
+      "paired": {
+        "comparator": "r1_window|lr_C0.5",
+        "mean_diff": 0.07032160817876991,
+        "se": 0.02352907851441191,
+        "n_folds": 6,
+        "passes_2se": true,
+        "auprc_not_lower": true
+      },
+      "route": "clause 3a (paired > 2 SE)"
+    },
+    "B": {
+      "promoted": "W5_r1_window|lr_C0.5",
+      "comparator": "W5_r1_window|lr_C0.5",
+      "passing": [],
+      "chosen": "W5_r1_window|lr_C0.5",
+      "route": "clause 3b (round-1 family ranked above round-1 final under CV; no noise margin in the stamped text)",
+      "vs_round1_final": {
+        "round1_final": "W5_r1_rel|shipped",
+        "within": [
+          0.7087129092200511,
+          0.6948484522643646
+        ],
+        "oof_auprc": [
+          0.10297828276569522,
+          0.10212426055898711
+        ],
+        "paired_diff_final_vs_comp": {
+          "comparator": "W5_r1_window|lr_C0.5",
+          "mean_diff": -0.005164035165292957,
+          "se": 0.021476552211878434,
+          "n_folds": 6,
+          "passes_2se": false,
+          "auprc_not_lower": false
+        }
+      }
+    }
+  }
+}

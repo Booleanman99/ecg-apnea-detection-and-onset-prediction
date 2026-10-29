@@ -1,0 +1,64 @@
+{
+  "1_feature_audit": {
+    "n_features": 272,
+    "label_like_or_index_columns": [],
+    "passed": true
+  },
+  "2_disjoint_and_fit": {
+    "train_nights": [
+      "a01",
+      "a02",
+      "a03",
+      "a05",
+      "a06",
+      "a07",
+      "a08",
+      "a09",
+      "a11",
+      "a12",
+      "a13",
+      "a14",
+      "a15",
+      "b01",
+      "b02",
+      "b04",
+      "c01",
+      "c02",
+      "c03",
+      "c04",
+      "c06",
+      "c07"
+    ],
+    "test_nights": [
+      "a16",
+      "a18",
+      "a19",
+      "a20",
+      "b05",
+      "c08",
+      "c09",
+      "c10"
+    ],
+    "overlap": [],
+    "train_equals_SPLIT_train_plus_val": true,
+    "saved_model_n_features_in": 272,
+    "saved_feats_equal": true,
+    "passed": true
+  },
+  "3_label_permutation_invariance": {
+    "columns_compared": 272,
+    "identical": true,
+    "passed": true
+  },
+  "4_causality_noise_after_window": {
+    "windows": 30,
+    "changed": 0,
+    "passed": true
+  },
+  "5_oof_plausibility": {
+    "oof_auprc_same_pipeline_seed": 0.7854249173666167,
+    "cv_table_value": 0.785,
+    "passed": true
+  },
+  "all_passed": true
+}
